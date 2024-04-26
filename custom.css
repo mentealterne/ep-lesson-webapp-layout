@@ -1,0 +1,48 @@
+.bg-red {
+  background-color: rgb(236, 114, 114);
+  color: white;
+}
+
+.bg-blue {
+  background-color: blue;
+  color: white;
+}
+
+.bg-yellow {
+  background-color: rgb(163, 163, 14);
+  color: white;
+}
+
+.top-bar {
+  position: fixed;
+  width: calc(100vw - 16.6% - 16.6%);
+  height: 80px;
+  top: 80px;
+  left: 16.6%;
+}
+
+.top-bar-spotify {
+  height: 80px;
+  background: black;
+}
+
+.bottom-bar {
+  height: 80px;
+  background: black;
+}
+
+.h-main {
+  height: calc(100vh - 160px);
+}
+
+.main-content {
+  padding-top: 90px;
+}
+
+.h-80px {
+  height: 80px;
+}
+
+.playlist {
+  height: calc(100vh - (80px * 3));
+}
